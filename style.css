@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+}
+.backgroundImage{
+    
+    height: 50vh;
+    
+    background-image: url('Images/ScrollImage4.jpg');
+    
+    
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+}
+p.light{
+    color: rgb(224, 224, 224);
+    font-weight: 400;
+    font-size: small;
+    line-height: 150%;
+    
+}
+p.bold{
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+
+body header ul li{
+
+    padding: 0px 10px;
+    color: white;
+    margin: 0px 10px;
+    font-family: "Amazon Ember", Arial, sans-serif;
+    
+    
+    
+}
+.search{
+    width : 30vw;
+    height: 5vh;
+    padding: 5px;
+}
+body header ul li input{
+    border-radius: 2mm;
+}
+body header ul li input:focus{
+    outline: 0;
+    border: none;
+    border: 1mm solid rgb(255, 196, 0);
+}
+header{
+    height: 12vh;
+    background-color: rgb(35, 47, 62);
+    position: sticky;
+    top: 0%;
+    z-index: 5;
+}
+footer div{
+    height: 40vh;
+    background-color: rgb(35, 47, 62);
+    display: flex;
+    color: white;
+
+}
+footer p{
+    height: 10vh;
+    color: white;
+    background-color: #131a22;
+    display: flex;
+    
+    justify-content: center;  /* Centers horizontally */
+    align-items: center;  /* Centers vertically */
+    
+    
+}
+.footer{
+    height: 20vh;
+    margin: 20px 20px 0px 20px;
+    padding: 20px 20px 0px 20px;
+}
+.footerText{
+    margin: 10px;
+    padding: 10px;
+    
+}
+.box1{
+    height: 300vh;
+    background-color: rgb(230, 230, 230);
+    box-sizing: border-box;
+}
+.searchbtn{
+    height: 5vh;
+}
+.ShopItem{
+    position: relative;
+    top: 40vh;
+    color: black;
+    background-color: white;
+    margin: 25px;
+    padding: 20px;
+    width:20vw;
+    height: 50vh;
+
+
+
+}
+
+
+h2{
+    font-family: "Amazon Ember", Arial, sans-serif;
+
+}
+.MoreItems{
+    position: relative;
+    top:50vh;
+    height: 40vh;
+    background-color: white;
+    margin: 50px 20px 50px 20px;
+    padding: 20px;
+
+}
+
